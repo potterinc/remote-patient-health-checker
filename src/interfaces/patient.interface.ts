@@ -13,7 +13,7 @@ interface IPatient extends Document{
   height?: number;
   genotype?: string;
   bloodGroup?: string;
-  HealthStatus?:any,
+  Diseases?:any,
   emergencyContact?: {
     firstName: string;
     lastName: string;
