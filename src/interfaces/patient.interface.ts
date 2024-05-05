@@ -14,13 +14,7 @@ interface IPatient extends Document{
   genotype?: string;
   bloodGroup?: string;
   Diseases?:any,
-  emergencyContact?: {
-    firstName: string;
-    lastName: string;
-    telephone: string;
-    address?: string;
-    email?: string;
-  },
+  emergencyContact?:object;
   MedicalHistory?:any;
 }
 

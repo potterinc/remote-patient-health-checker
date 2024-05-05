@@ -16,9 +16,9 @@ const patientRecordSchema = new Schema<IPatient>({
   bloodGroup: String,
   Diseases: {},
   emergencyContact: {
-    firstName: { type: String, required: true },
-    lastName: { type: String, required: true },
-    telephone: { type: String, required: true },
+    firstName: String,
+    lastName: String,
+    telephone: String,
     address: String,
     email: String,
   },
